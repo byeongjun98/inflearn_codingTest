@@ -16,6 +16,6 @@
 
 ### 1. 리포지토리 클론
 ```bash
-git clone https://github.com/<your-username>/inflearn_codingTest.git
+git clone https://github.com/byeongjun98/inflearn_codingTest.git
 cd inflearn_codingTest
 ```
