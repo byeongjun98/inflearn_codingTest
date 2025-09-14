@@ -7,7 +7,6 @@ def find_max_occurred_alphabet_array(string):
     for char in string:
         if not char.isalpha():
             continue
-        # 대소문자 구분을 없애기 위해 소문자로 변환
         arr_index = ord(char) - ord("a")
         alphabet_occurrence_array[arr_index] += 1
     print("alphbet_occurence_array is ", alphabet_occurrence_array)
