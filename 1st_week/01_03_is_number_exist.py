@@ -1,0 +1,14 @@
+# 점근표기법
+# 빅오 -> 최악의 경우
+# 빅오메가 -> 최선의 경우
+# 아래 코드는 O(N), Ω(1)
+
+def is_number_exist(number, array):
+    for element in array:
+        if number == element:
+            return True
+    return False
+
+result = is_number_exist
+print("정답 = True / 현재 풀이값 =", result(3, [3,5,6,1,2,4]))
+print("정답 = False / 현재 풀이값 =", result(7, [3,5,6,1,2,4]))
