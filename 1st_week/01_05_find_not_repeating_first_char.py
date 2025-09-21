@@ -26,3 +26,5 @@ def find_alphabet_occurrence_array(string): # string을 인자로 받아 각 알
 
 result = find_not_repeating_first_character
 print("정답 = d / 현재 풀이값 =", result("abadabac"))
+print("정답 = c / 현재 풀이값 =", result("aabbcddd"))
+print("정답 = _ / 현재 풀이값 =", result("aaaaaaaa"))
